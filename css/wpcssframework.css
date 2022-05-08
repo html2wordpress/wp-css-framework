@@ -529,6 +529,8 @@ color:#000000;
 	display: inline-block;
 }
 
+/* hr */
+
 hr.thick-red {
   border: none;
   height: 4px;
@@ -564,6 +566,8 @@ hr.thick-white {
   background-color: #ffffff;
 }
 
+/* pre / code */
+
 .highlight pre {
   padding: 0;
   margin-top: .65rem;
@@ -598,4 +602,93 @@ code {
   font-size: 87.5%;
   color: #e83e8c;
   word-wrap: break-word;
+}
+
+/* backgrounds */
+
+
+.bg-blue {
+	background-color:#0d6efd;
+}
+
+.bg-indigo {
+	background-color:#6610f2;
+}
+
+.bg-purple {
+	background-color:#6f42c1;
+}
+
+.bg-pink {
+	background-color:#d63384;
+}
+
+.bg-red {
+	background-color:#dc3545;
+}
+
+.bg-orange {
+	background-color:#fd7e14;
+}
+
+.bg-yellow {
+	background-color:#ffc107;
+}
+
+.bg-green {
+	background-color:#198754;
+}
+
+.bg-teal {
+	background-color:#20c997;
+}
+
+.bg-cyan {
+	background-color:#0dcaf0;
+}
+
+.bg-white {
+	background-color:#fff;
+}
+
+.bg-grey {
+	background-color:#dee2e6;
+}
+
+.bg-black {
+	background-color:#000000;
+}
+
+/* Bootstrap text colors */
+
+.bg-primary {
+	background-color:#0d6efd;
+}
+
+.bg-secondary {
+	background-color:#6c757d;
+}
+
+.bg-success {
+	background-color:#198754;
+}
+
+.bg-info {
+	background-color:#0dcaf0;
+}
+
+.bg-warning {
+	background-color:#ffc107;
+}
+
+.bg-danger {
+	background-color:#dc3545;
+}
+
+.bg-light {
+	background-color:#f8f9fa;
+}
+
+.bg-dark {
+	background-color:#212529;
 }
