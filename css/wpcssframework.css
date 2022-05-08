@@ -582,7 +582,7 @@ code, kbd, pre, samp {
   font-size: 1em;
 }
 
-.highlight pre code {
+code {
   font-size: inherit;
   color: #212529;
 }
