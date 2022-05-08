@@ -575,6 +575,7 @@ pre {
   display: block;
   font-size: 87.5%;
   color: #212529;
+  overflow-x: auto;
 }
 
 code, kbd, pre, samp {
