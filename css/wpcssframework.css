@@ -12,6 +12,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  width:80%;
+  margin:0 auto;
 }
 
 /* Columns */
@@ -423,6 +425,10 @@ ol, ul {
 
 .t-grey {
 	color:#dee2e6;
+}
+
+.t-black {
+color:#000000;
 }
 
 /* Bootstrap text colors */
