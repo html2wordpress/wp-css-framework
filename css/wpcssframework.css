@@ -590,6 +590,8 @@ pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
+  background-color: #263238;
+  padding:10 px;
 }
 code {
   font-size: 87.5%;
