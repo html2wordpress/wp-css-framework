@@ -58,42 +58,6 @@ function skeleton_register_required_plugins() {
 	 * If the source is NOT from the .org repo, then source is also required.
 	 */
 	$plugins = array(
-		
-		array(
-			'name'               => 'WooCommerce', // The plugin name.
-			'slug'               => 'woocommerce', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/tgm/plugins/woocommerce.6.4.1.zip', // The plugin source.
-			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'version'            => '6.4.1', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
-			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-		),
-
-		array(
-			'name'               => 'Live Ajax Search', // The plugin name.
-			'slug'               => 'searchwp-live-ajax-search', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/tgm/plugins/searchwp-live-ajax-search.1.6.2.zip', // The plugin source.
-			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'version'            => '1.6.2', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
-			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-		),
-		
-		array(
-			'name'               => 'Mail Chimp', // The plugin name.
-			'slug'               => 'mailchimp-for-wp', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/tgm/plugins/mailchimp-for-wp.4.8.7.zip', // The plugin source.
-			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'version'            => '4.8.7', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
-			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-		),
 
 			array(
 			'name'               => 'ACF', // The plugin name.
@@ -106,43 +70,6 @@ function skeleton_register_required_plugins() {
 			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
 			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
 		),
-		
-			array(
-			'name'               => 'Classic Widgets', // The plugin name.
-			'slug'               => 'classic-widgets', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/tgm/plugins/classic-widgets.0.3.zip', // The plugin source.
-			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'version'            => '0.3', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
-			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-		),
-		
-			array(
-			'name'               => 'Google reCAPTCHA', // The plugin name.
-			'slug'               => 'simple-google-recaptcha', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/tgm/plugins/simple-google-recaptcha.3.9.zip', // The plugin source.
-			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'version'            => '3.9', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
-			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-		),
-		
-			array(
-			'name'               => 'Simple Local Avatars', // The plugin name.
-			'slug'               => 'simple-local-avatars', // The plugin slug (typically the folder name).
-			'source'             => get_template_directory() . '/tgm/plugins/simple-local-avatars.2.3.0.zip', // The plugin source.
-			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'version'            => '2.3.0', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher, the user will be notified to update the plugin.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
-			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-		),
-
 	);
 
 	/*
